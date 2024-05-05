@@ -42,19 +42,22 @@
 // findMin()
 
 // array ichidagi juft  sonni topish
-// let arr=[3,5,45,78,23,16,50];
-// let EvenNumbers=[];
-// for( let i=0;i<=arr.length;i++){
-//   if(EvenNumbers[i]%2==0)
-//   EvenNumbers.push(arr[i]);
-// }
-// console.log(EvenNumbers)
-
-let numbers = [3,5,6,7,8,9,46,101];
-let odds = [];
-for (let num of numbers) {
-  if (num % 2 === 1) {
-    odds.push(num);
+let arr=[3,5,45,78,23,16,50];
+let EvenNumbers=[];
+for( let num of arr){
+  if(num%2===0){
+  EvenNumbers.push(num);
   }
 }
-console.log(odds);
+console.log(EvenNumbers)
+
+// array ichidagi toq  sonni topish
+
+// let numbers = [3,5,6,7,8,9,46,101];
+// let odds = [];
+// for (let num of numbers) {
+//   if (num % 2 === 1) {
+//     odds.push(num);
+//   }
+// }
+// console.log(odds);
